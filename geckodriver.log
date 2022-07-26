@@ -1,0 +1,16 @@
+1658309848306	geckodriver	INFO	Listening on 127.0.0.1:8170
+1658309851354	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "8171" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ariya\\AppData\\Local\\Temp\\rust_mozprofile5TFVaE"
+1658309852998	Marionette	INFO	Marionette enabled
+1658309853009	Marionette	INFO	Listening on port 8182
+Read port: 8182
+WebDriver BiDi listening on ws://localhost:8171
+1658309853351	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ariya\\AppData\\Local\\Temp\\rust_mozprofile5TFVaE\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:8171/devtools/browser/715d4d2f-8177-4803-b781-d3da84a51fce
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.google.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.google.com"
+Marionette threw an error: TypeError: browsingContext.currentWindowGlobal is null
+getMarionetteCommandsActorProxy/get/<@chrome://remote/content/marionette/actors/MarionetteCommandsParent.jsm:332:29
+
+1658309908405	Marionette	INFO	Stopped listening on port 8182
+!!! error running onStopped callback: TypeError: callback is not a function
